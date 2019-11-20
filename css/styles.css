@@ -98,6 +98,7 @@ ul li {
 /* @mediaQuerys */
 @media (max-width: 575.98px) { 
     h4{
+        color:red;
         font-size: 30px;
     }
 
@@ -118,7 +119,7 @@ ul li {
     text-align: center;
   
     .position-bottom ul{
-        padding: 0;
+        padding-left: 0;
     }    
 }
 }
