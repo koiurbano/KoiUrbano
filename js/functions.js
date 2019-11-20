@@ -1,0 +1,1 @@
+$(".countdown-basic").each(function(){var a=$(this).attr("data-countdown");$(this).countdown(a,function(a){$(this).html(a.strftime("%D dias %H:%M:%S"))})})

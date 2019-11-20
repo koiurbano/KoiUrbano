@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden;
+}
+
+html,body{
+    height: 100%;
+    width: 100%
+}
+
+@font-face{
+    font-family: "yozakura";
+    src: url("../fuentes/YOZAKURA-Regular.otf");
+}
+
+
+@font-face{
+    font-family: "Graffiare";
+    src: url("../fuentes/Graffiare.ttf");
+}
+
+
+
+/* fuentes */
+
+.fz-2 {
+    font-size: 5.5em;
+}
+
+
+
+.section-fullscreen {
+    width: 100%;
+    height: 100%;
+}
+
+.section-fullscreen .container{
+    height: 100%;
+}
+.container {
+    position: relative;
+    padding: 0 30px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    
+}
+
+
+
+h4{
+    font-family: "Graffiare";
+    font-size: 45px;
+}
+h4:hover{
+    color:#666666b0;
+    
+
+
+}
+
+.vuel{
+    display: inline-block;
+}
+.position-top {
+    top:30px;
+    padding:0 30px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.position-middle{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+.position-bottom{
+    padding: 0 30px;
+    bottom: 30px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+ul li {
+    margin: 0 16px 0 0;
+    display: inline-block;
+}
+
+.mt-15{
+    margin-top: 10px;
+}
+
+/* @mediaQuerys */
+
+
+@media (min-width: 375px) and (max-width: 767.98px) {  
+   
+     h3 {
+        font-size: 25px;
+    }
+     
+    .fz-2 {
+        font-size: 45px;;
+    }
+    
+    .position-middle{
+        padding: 15px;
+        text-align: center;
+    }
+  .position-bottom{
+    bottom: 250px;
+    text-align: center;
+}
+  
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    h4{
+        color: red;
+    }
+
+    
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) {  }
