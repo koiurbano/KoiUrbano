@@ -98,7 +98,7 @@ ul li {
 /* @mediaQuerys */
  @media (max-width: 575.98px) { 
     h4{
-        color: green;
+      font-zise:40px;
     }
 
     h3 {
