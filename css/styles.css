@@ -162,9 +162,7 @@ ul li {
 
 }
   
-
-
-@media (max-width: 320px) { 
+@media (max-width: 575.98px) { 
     h4{
         font-size: 40px;
         color:yellow;
@@ -194,6 +192,9 @@ ul li {
     text-align: center;
     left: 10px;
 }
+
+}
+
 
 }
   
