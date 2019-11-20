@@ -96,9 +96,7 @@ ul li {
 }
 
 /* @mediaQuerys */
-
-@media (min-width: 300px) and (max-width: 1278.98px) { 
-
+@media (max-width: 575.98px) { 
     h4{
         color: green;
     }
@@ -119,54 +117,4 @@ ul li {
     bottom: 250px;
     text-align: center;
 }
-
-
-
-
-
-@media (min-width: 375px) and (max-width: 767.98px) {  
-   
-     h3 {
-        font-size: 25px;
-    }
-     
-    .fz-2 {
-        font-size: 45px;;
-    }
-    
-    .position-middle{
-        padding: 15px;
-        text-align: center;
-    }
-  .position-bottom{
-    bottom: 250px;
-    text-align: center;
 }
-  
-
-}
-
-@media (min-width: 360px) and (max-width: 740.98px) {  
-   
-    h3 {
-       font-size: 25px;
-   }
-    
-   .fz-2 {
-       font-size: 35px;
-   }
-   
-   .position-middle{
-       padding: 15px;
-       text-align: center;
-   }
- .position-bottom{
-   bottom: 250px;
-   text-align: center;
-}
-
-
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
-
-
-@media (min-width: 1200px) {  }
