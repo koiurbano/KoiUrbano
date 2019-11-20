@@ -143,4 +143,22 @@ ul li {
 @media (min-width: 992px) and (max-width: 1199.98px) {  }
 
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+     h3 {
+        font-size: 25px;
+    }
+     
+    .fz-2 {
+        font-size: 45px;
+    }
+    
+    .position-middle{
+        padding: 15px;
+        text-align: center;
+    }
+  .position-bottom{
+    bottom: 250px;
+    text-align: center;
+}
+    
+    }
