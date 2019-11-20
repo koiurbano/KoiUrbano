@@ -116,4 +116,11 @@ ul li {
   .position-bottom{
     bottom: 100px;
     text-align: center;
+  
+   ul{
+      padding: 0;
+    }     
 }
+}
+    
+    
