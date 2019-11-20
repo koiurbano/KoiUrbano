@@ -96,13 +96,9 @@ ul li {
 }
 
 /* @mediaQuerys */
-
-
-
-@media (min-width: 720px) and (max-width: 1279.98px) { 
-
+@media (max-width: 575.98px) { 
     h4{
-        color: red;
+        color: green;
     }
 
     h3 {
@@ -121,5 +117,6 @@ ul li {
     bottom: 250px;
     text-align: center;
 }
-    
- }
+
+
+}
