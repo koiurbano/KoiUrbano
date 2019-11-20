@@ -117,9 +117,9 @@ ul li {
     bottom: 100px;
     text-align: center;
   
-   ul{
-      padding: 0;
-    }     
+    .position-bottom ul{
+        padding: 0;
+    }    
 }
 }
     
